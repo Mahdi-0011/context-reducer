@@ -1,14 +1,11 @@
+import "./App.scss";
+import Counter from "./components/counter/counter";
+import CountReducerContextProvider from "./context/countercontext";
 
-import './App.scss'
-
-function App() {
-
-
-  return (
-    <>
-
-    </>
-  )
-}
-
-export default App
+export default function App() {
+  return<>
+  <CountReducerContextProvider>
+<Counter/>
+</CountReducerContextProvider>
+</>
+};
