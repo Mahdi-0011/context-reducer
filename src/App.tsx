@@ -5,7 +5,7 @@ import CountReducerContextProvider from "./context/countercontext";
 export default function App() {
   return<>
   <CountReducerContextProvider>
-<Counter/>
+<Counter />
 </CountReducerContextProvider>
 </>
 };
