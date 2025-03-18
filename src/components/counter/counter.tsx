@@ -1,6 +1,6 @@
 
 import { useCountReducerContext } from "../../context/countercontext";
-import "../counter.scss"
+import "./counter.scss"
 
 export default function Counter() {
   const { state, dispatch } = useCountReducerContext();
